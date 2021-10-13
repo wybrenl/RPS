@@ -77,7 +77,7 @@ function updateScore () {
     if (comScore == 5) {
         ps.textContent = myScore;
         cs.textContent = comScore;
-        winner.textContent = "Computer won!";
+        winner.textContent = "Computer won - you drink!";
         disable();
     } else if (myScore == 5) {
         ps.textContent = myScore;
