@@ -51,7 +51,7 @@ function playGame(computerSelection,playerSelection) {
             hand.textContent = "You loose! Rock beats scissors"
             comScore++
         } else if (computerSelection == "paper") {
-            chand.textContent = "You win! Scissors beats paper"
+            hand.textContent = "You win! Scissors beats paper"
             myScore++
         } else if (computerSelection == "scissors") {
             hand.textContent = "It's a tie! You both picked scissors"
