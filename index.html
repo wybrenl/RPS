@@ -5,9 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="rpsscript.js"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="header">Let's play RPS!</div>
     
+    <div class="container">
+        <div class="game">
+            <button id="rock" class="button">Rock</button>
+            <button id="paper" class="button">Paper</button>
+            <button id="scissors" class="button">Scissors</button>
+        </div>
+        <div class="hand"></div>
+        <div class="result-box">
+            <div class=score-box>Score</div>
+            <div class="score">
+                <ul>
+                    <li class="myscore playerScore"></li>
+                    <li class="myscore compScore"></li>
+                </ul>
+            </div>
+            <div class="winner"></div>
+        </div>
+        <button id="restart" class="button restart">Restart</button>
+    </div>       
+
+    <div class="footer">© Henkie B productions</div>
+
+    <script src="rpsscript.js"></script>
 </body>
 </html>
