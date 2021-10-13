@@ -76,7 +76,7 @@ body  {
     justify-content: center;
     align-items: center;
     margin: 10px;
-    font-size: 30px;
+    font-size: 2vw;
     color: green;
     height: 40px;
 }
@@ -102,7 +102,6 @@ ul {
     margin: 10px;
     background-color: yellow;
 }
-
 
 .footer {
     text-align: center;
